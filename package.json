@@ -1,0 +1,11 @@
+{
+  "name": "foundation",
+  "version": "1.0.0",
+  "scripts": {
+    "css-build": "node-sass --include-path node_modules/foundation-sites/scss sass/mystyles.scss css/mystyles.css"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.7.5",
+    "node-sass": "^7.0.1"
+  }
+}
