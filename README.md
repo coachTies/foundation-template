@@ -9,5 +9,5 @@ In de map met de `package.json` van het template, run:
 
 # build eigen css
 
-`npm run css-build`  
-Daarmee maak je het `css/mystyles.css` bestand aan. Daarin komt alle styling van foundation en al jou eigen styling uit `sass/mystyles.scss` te staan.
+`npm start`  
+Daarmee maak je het `css/mystyles.css` bestand aan. Daarin komt alle styling van foundation en al jou eigen styling uit `sass/mystyles.scss` te staan. Vervolgens worden alle aanpassingen gedetecteerd en wordt `css/mystyles.css` dan opnieuw gebouwd.

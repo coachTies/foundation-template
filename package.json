@@ -2,7 +2,7 @@
   "name": "foundation",
   "version": "1.0.0",
   "scripts": {
-    "css-build": "sass -I node_modules/foundation-sites/scss sass/mystyles.scss css/mystyles.css"
+    "start": "sass -I node_modules/foundation-sites/scss --watch sass/mystyles.scss css/mystyles.css"
   },
   "dependencies": {
     "foundation-sites": "^6.8.1",
