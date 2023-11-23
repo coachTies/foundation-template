@@ -1,14 +1,6 @@
 @import './_settings';
 @import 'foundation';
 
-
-// Here you can override foundation settings and/or add your custom styles
-
-// For example, we can change the primary color:
-$primary-color: #1779ba;
-
-// Or the background color of the topbar:
-$topbar-background: $primary-color;
-
-
 @include foundation-everything($prototype: true);
+
+// here you write your own styles
